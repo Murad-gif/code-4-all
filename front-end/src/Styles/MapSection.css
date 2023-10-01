@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.map-container {
+    padding: 50px 0 60px 0;
+    justify-items: center;
+    margin-bottom: 70px;
+}
+
+.map-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0 15px 0;
+    color: black;
+    font-weight: bold;
+}
+
+iframe {
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 95%;
+    box-shadow: 25px 30px 55px #5557;
+}
+
+@media  (max-width: 570px) {
+
+    .map-title {
+        font-size: 1.75rem;
+    }
+
+    iframe {
+        width: 90%;
+        height: 40vh;
+    }
+}

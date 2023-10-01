@@ -1,0 +1,688 @@
+.on {
+  color: yellow;
+}
+.off {
+  color: #ccc;
+}
+
+.videoPlayer {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+
+  z-index: 10001;
+}
+
+.video-player-popup {
+  margin-top: 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+
+  z-index: 1000;
+}
+.closeIcon {
+  position: relative;
+  top: -5%;
+  color: aquamarine;
+  background: none;
+  border: 0ch;
+  float: right;
+  z-index: 10001;
+}
+
+.objectVideos {
+  position: relative;
+  padding: 20px;
+  padding-top: 40px;
+  max-width: 800px;
+  min-height: 300px;
+  margin: auto;
+  color: aliceblue;
+
+  background: rgba(0, 0, 0, 0.4);
+}
+.Space {
+  padding: 30px;
+}
+
+.objectVideos .wyl {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 3%;
+}
+
+.objectVideos .wyl-list {
+  list-style-type: circle;
+
+  max-width: 45%;
+  padding-top: 10px;
+  float: right;
+  vertical-align: top;
+  font-size: 16px;
+
+}
+.objectVideos .b {
+  font-size: 14px;
+  max-width: 40%;
+  padding-top: 10px;
+  padding-left: 10px;
+  list-style-type: circle;
+}
+
+.objectVideos .c {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.discription {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.discription .header {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+}
+.discription .sub-header {
+  font-size: 16px;
+  color: rgb(237, 232, 232);
+}
+
+.couresesVideos {
+  position: relative;
+  background-color: #343954;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.courseContenttitle {
+  font-size: 20px;
+  text-align: center;
+  color: aquamarine;
+}
+
+.Accordion {
+  position: relative;
+  max-width: 800px;
+
+  z-index: 1;
+
+  margin: 0 auto;
+
+  overflow-x: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.Accordion .videoLinks {
+  border-bottom: 1px solid#ac0f0f;
+
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #080808;
+  display: block;
+  border: none;
+  background: none;
+  max-width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+button.dropdown-btn {
+  padding-left: 10px;
+}
+
+.line-2 {
+  padding: 6px 8px 6px 16px;
+  display: relative;
+  font-size: 15px;
+  float: right;
+}
+
+.dropdown-btn {
+  border-radius: 6px 6px 6px 6px;
+  margin: auto;
+  color: #070606;
+  max-height: 100px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  margin: 10px 0 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  border: 3px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dropdown-container {
+  background-color: rgb(224, 219, 219);
+  padding-left: 8px;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 6px 6px 6px 6px;
+}
+
+.dropdown-container i {
+  float: left;
+  padding-left: 30px;
+  padding-left: 6px;
+  margin-right: 7px;
+  margin-top: 3px;
+}
+.dropdown-btn .fa {
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  -moz-transition: all 0.2s linear 0s;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: transform 0.3s linear;
+}
+
+.Coursediscription {
+  position: relative;
+  min-block-size: 25ch;
+  inline-size: 100%;
+  max-inline-size: 800px;
+  background: rgba(86, 212, 138, 0.959);
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: auto;
+  color: #000;
+  margin-top: 100px;
+  border: 3px solid black;
+}
+.Coursediscription .DescriptionHeader {
+  font-size: 18px;
+}
+.Coursediscription .DescriptionText {
+  font-size: 13px;
+}
+
+.sponsor-header {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+.row {
+  align-items: center;
+  justify-content: center;
+}
+.sponsor-feature {
+  position: relative;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 25px;
+  font-size: 30px;
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.reviewsContainer {
+  position: relative;
+  padding-top: 20px;
+  padding-left: 20px;
+
+  margin: auto;
+  margin-top: 5%;
+  max-width: 800px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(6, 65, 133);
+
+  background: rgb(150, 150, 209);
+}
+.averageRating {
+  color: rgb(0, 0, 0);
+  border-bottom: 3px solid black;
+  padding-bottom: 8px;
+  margin-right: 20px;
+}
+.reviewsContainer .submitButton {
+  float: right;
+  position: absolute;
+  margin-top: 12px;
+  margin-right: 25px;
+  padding: 2px;
+  top: 0%;
+  right: 0%;
+  max-width: 6rem;
+  border-radius: 10px;
+  border: 3px solid #0e110f;
+  background: none;
+  color: #1f10aa;
+  overflow: hidden;
+  transition: color 800ms ease, transform 500ms ease;
+}
+
+.reviewsContainer .submitButton::before {
+  content: "";
+  width: 100%;
+  height: 11rem;
+  background: #1ad02f;
+  position: absolute;
+  left: 0;
+  top: 110%;
+  border-radius: 50%;
+  transition: top 500ms ease;
+  z-index: -1;
+}
+
+.reviewsContainer .submitButton:hover:before {
+  top: -150%;
+}
+
+.reviewsContainer .submitButton:hover {
+  background: #02d802;
+  color: #111;
+}
+
+.reviewsContainer .submitButton:active {
+  transform: scale(0.9);
+}
+
+.ratingContainer {
+  width: 300px;
+  height: 330px;
+color:white;
+  background-color: #4749b9;
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 9;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.swal2-container {
+  z-index: 10000000;
+}
+.star-rating > button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  left: 33%;
+  top: 5px;
+}
+.ratingContainer > textarea {
+  font-size: small;
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 150px;
+  margin-top: 10%;
+}
+.ratingContainer .submitButton {
+  position: relative;
+  background-color: #55c49f;
+  right: 30%;
+  top: -13px;
+}
+.ratingContainer > h1 {
+  color: #f0eded;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.ratingcloseIcon {
+  background-color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  border: 0ch;
+
+  float: right;
+  position: relative;
+  top: -2%;
+  right: -2%;
+}
+.ratingcloseIcon:hover {
+  color: #0a942c;
+}
+.textReview {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 10px;
+}
+
+.reviews {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+.reviews .eachReview .top-review .reviewerName {
+  font-size: 18px;
+  color: rgb(1, 2, 2);
+
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.reviews .eachReview .reviewphoto{
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  left:500px;
+  margin-top: 18px;
+
+}
+.reviewBox{
+  margin-left: 16px;
+}
+
+.reviews .eachReview .top-review .reviewerName:first-letter {
+  text-transform: uppercase;
+}
+
+.reviewDiscription > p {
+  margin-bottom: 5px;
+  color: #090808;
+
+
+
+}
+.reviewDiscription{
+}
+
+.reviewDiscription > p2 {
+
+  font-size: 13px;
+}
+
+.reviews .eachReview {
+  word-break: break-word;
+
+  
+
+  width: 45%;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  border-top: 0.5px solid rgb(117, 103, 103);
+}
+.reviewSorter{
+  display: flex;
+}
+
+.viewMore {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: none;
+  margin-top: 20px;
+}
+.viewLess {
+  margin-bottom: 10px;
+  background: none;
+  float: right;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.icon-c {
+  color: yellow;
+  margin-bottom: 5px;
+}
+
+.editReview {
+
+  border: 2px solid #555555;
+  background: none;
+  padding: 4px 8px;
+  text-align: center;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.editReview:hover {
+  background-color: #4caf50;
+  color: black;
+}
+.deleteReview {
+
+  background: none;
+  border: 2px solid #555555;
+  padding: 4px 8px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.deleteReview:hover {
+  background-color: #a53e4f;
+  color: black;
+}
+.editanddeleteButton{
+  margin-left: 43px;
+}
+
+
+.trackerContainer {
+  border: 3px solid rgb(245, 242, 242);
+  position: relative;
+  height: 180px;
+  max-width: 800px;
+  background-color: #4c4d47c9;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin: 5% auto;
+  padding: 10px;
+}
+
+.tracker {
+  margin: 50px 90px;
+  height: 4px;
+  background-color: #ccc;
+}
+
+.tracker-progress {
+  width: 0;
+  height: 100%;
+  background-color: orange;
+}
+
+.tracker-items {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tracker-item {
+  position: relative;
+}
+
+.tracker-item::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  display: block;
+  border-radius: 100%;
+  font-family: "Font Awesome 5 Free";
+  color: #000;
+  font-weight: 800;
+  content: "\2716";
+  padding-right: 0.8px;
+  padding-bottom: 2px;
+}
+
+.tracker-name {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ddd;
+  color: #000;
+
+  width: 140px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.tracker-name::before {
+  content: "";
+  max-width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  display: block;
+  position: absolute;
+  top: -8px;
+  margin-left: -2px;
+  left: 50%;
+  transform: rotate(-45deg) translateX(-50%);
+}
+
+.tracker-item.active::before {
+  background-color: orange;
+  font-family: "Font Awesome 5 Free";
+  color: #000;
+  font-weight: 900;
+  content: "\f00c";
+  padding-left: 1.5px;
+  padding-bottom: 4px;
+}
+
+.tracker-item.active .tracker-name {
+  color: #030303;
+  background-color: orange;
+}
+
+.tracker-item.active .tracker-name::before {
+  background-color: orange;
+}
+
+
+
+.reviewFilterOptions{
+  
+  display: inline;
+  float: right;
+  position: relative;
+  block-size: fit-content;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  margin-right: 100px;
+  top: -7px;
+  
+}
+.reviewFilterOptions a{
+  display: inline-block;
+  background-color: none;
+
+  cursor: pointer;  height:30px;
+  width:35px;
+  background: none;
+
+}
+
+.reviewFilterOptions a:active{
+  background-color: orange;
+}
+
+.reviewFilterOptions a img{
+  user-select: none;
+  position: relative;
+  margin:auto;
+  height:30px;
+  width:35px;
+  border: 2px solid black;
+  padding: 2px;
+  background: none;
+
+}
+
+.reviewsSort {
+  cursor: pointer;
+  width : 55px;
+  height: 50px;
+  user-select: none;
+}
+
+.reviewsSort-optn {
+  width:230px;
+  height:0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  list-style: none;
+  padding-left:0;
+  z-index: 1;
+  position: absolute;
+  right:0%;
+  color: white;
+  background-color: rgb(7, 233, 184);
+}
+.reviewsSort-optn :hover{
+  background-color: rgb(61, 196, 7);
+}
+
+.reviewsSort-optn li a{
+  color: #000;
+
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(7, 233, 184);
+
+  font-size:20px;
+  text-decoration: none;
+  text-align: left;
+}
+
+#reviewsortbtn { 
+  position: absolute; opacity: 0; height: 0px;
+}    
+
+#reviewsortbtn:checked + .reviewsSort-optn{
+  border: 2px solid white;
+  color: #000;
+  height: 170px;
+  background-color:rgb(7, 233, 184);
+  z-index: 1;
+  position: absolute;
+}
+
+
+

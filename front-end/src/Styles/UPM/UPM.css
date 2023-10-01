@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.upm-container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #28223f;
+  font-family: Montserrat, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  min-height: 100vh;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.upm-mini-container {
+  max-width: 1400px;
+  width: 100%;
+  height: 200vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #231e39;
+  overflow-y: scroll;
+  margin-top: 40px;
+}
+
+.upm-searchButton {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  top: 50%;
+
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.upm-card-container h3 {
+  margin: 10px 0;
+}
+
+.upm-card-container h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.upm-card-container p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.upm-card-container {
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 0px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: fit-content;
+}
+
+.upm-card-container li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.upm-card-container-1 {
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 0px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: fit-content;
+}
+
+.upm-card-container .upm-logout {
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.upm-edit-button {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  margin-left: auto;
+  position: relative;
+  top: 20px;
+  border-width: 3px;
+}
+
+.upm-card-container img {
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 7px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.upm-click {
+  background-color: transparent;
+  position: absolute;
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  right: 56%;
+  top: 55%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upm-saver-1 {
+  background-color: transparent;
+  position: absolute;
+  right: 40.5%;
+  top: 59%;
+  border: none;
+  color: white;
+}
+
+.upm-primary {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #efeef5;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  margin-left: 20px;
+  width: fit-content;
+}
+
+.upm-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.upm-primary.upm-ghost {
+  background-color: transparent;
+  color: #02899c;
+}
+
+#upm-about {
+  height: 100px;
+}
+
+.upm-skills {
+  text-align: left;
+  padding: 15px;
+  margin-top: 0px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upm-skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.upm-skills h6 {
+  font-size: 20px;
+}
+
+.upm-skills ul li {
+  border: 1px solid #2d2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.upm-split {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.upm-split-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.upm-split-3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .upm-mini-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.upm-form {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.upm-field {
+  position: relative;
+  font-family: inherit;
+  width: 90%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.upm-field-2 {
+  position: relative;
+  font-family: inherit;
+  width: 90%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0 7px 0;
+  background: #231e39;
+  background-color: #231e39;
+  transition: border-color 0.2s;
+}
+
+.upm-field::placeholder {
+  color: transparent;
+}
+
+.upm-field:placeholder-shown ~ .upm-label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.upm-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+  background-color: transparent;
+}
+
+.upm-field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+
+.upm-field:focus ~ .upm-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+.upm-field:required,
+.upm-field:invalid {
+  box-shadow: none;
+}
+
+.upm-exp-card {
+  background: radial-gradient(#1fe4f5, #3fbafe);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.upm-exp-card label {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  width: 100%;
+  border-bottom-width: 100%;
+}
+
+.upm-field2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+@media (max-width: 800px) {
+  .upm-row1-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .upm-field2 {
+    flex-direction: column;
+  }
+}
+
+.upm-book {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.upm-split-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.upm-split-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.upm-box p {
+  color: var(--grayishBlue);
+}
+
+.upm-box {
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+}
+
+.upm-row1-container img {
+  float: right;
+}
+
+@media (max-width: 450px) {
+  .upm-box {
+    height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .upm-box {
+    text-align: center;
+    height: 180px;
+  }
+}
+
+.upm-cyan {
+  border-top: 3px solid var(--cyan);
+}
+
+.upm-row1-container h2 {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+}
+
+@media (min-width: 950px) {
+  .upm-row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .upm-row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .upm-box-down {
+    position: relative;
+  }
+
+  .upm-box {
+    width: 80%;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:700);
+
+.upm-avatar-container {
+  width: 150px;
+  height: 150px;
+}
+
+.upm-avatar {
+  /*background-image: url("https://s-media-cache-ak0.pinimg.com/236x/3c/41/74/3c41748bb2526f33c5ff6aa3adcd0b20.jpg");	*/
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 3px rgba(0, 150, 136, 0.3);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.upm-avatar img {
+  width: 100%;
+  height: 100%;
+  background: #03bfcb;
+  filter: grayscale(100%);
+  background-color: transparent;
+}
+
+.upm-ic-lock {
+  position: relative;
+  z-index: 3;
+  left: 34.3%;
+  top: 50px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  bottom: 22%;
+}

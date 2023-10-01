@@ -1,0 +1,174 @@
+.s-navbar-spacing{
+    margin-top: 3%;
+    padding-top: 2%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.SearchForum-Title{
+    position: relative;
+    padding:0px 40px;
+    user-select: none;
+    color: black;
+    font-size: 2rem;
+}
+.thread-search{
+    width: 96%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px 15px;
+    padding-bottom: 90px;
+    background-color: #a6aefd;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.searchthread-title{
+    margin-top: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+.searchthread-title label{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-right: 5px;
+    font-size: 23px;
+}
+#sthread-title{
+    position: relative;
+    padding-left: 10px;
+    display:inline-block;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    width: 88.5%;
+    border-radius: 10px;
+}
+
+
+
+.searchpost{
+    display: inline;
+    user-select: none;
+    margin-top: 14px;
+    align-items: center;
+    position:relative;
+    display:inline;
+    float:right;
+    border: 1px outset black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 40px;
+    background-color: #6193ff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.searchpost:hover{
+    background-color:#4882ff;
+}
+.searchpost:active{
+    box-shadow: 0 1px #646464;
+    transform:scale(0.99);
+}
+.searchpost label{
+    padding-left: 10px;
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;
+}
+
+.spost img{
+    height:40px;
+    width:40px;
+}
+
+/* search results */
+
+.searchresult-title h2{
+    margin-top: 20px;
+    position: relative;
+    padding: 10px 40px;
+    user-select: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.SearchResultOptions{
+    display: inline;
+    float: right;
+    position: relative;
+    block-size: fit-content;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin-right: 5%;
+}
+.SearchResultOptions a{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    
+}
+.SearchResultOptions a:active{
+    background-color: orange;
+}
+
+.SearchResultOptions a img{
+    user-select: none;
+    position: relative;
+    margin:auto;
+    height:50px;
+    width:55px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.SearchResultSort {
+    position: absolute;
+    cursor: pointer;
+    width : 55px;
+    height: 50px;
+    user-select: none;
+    direction: rtl;
+}
+
+.searchresultsort-optn {
+    
+    width:180px;
+    height:0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    list-style: none;
+    padding-left:0;
+    background-color: black;
+}
+.searchresultsort-optn :hover{
+    background-color: orange;
+}
+
+.searchresultsort-optn li a{
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+#srsortbtn { /* hidden checkbox*/
+    position: absolute; opacity: 0; height: 0px;
+}    
+
+#srsortbtn:checked + .searchresultsort-optn {
+    height: 100px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+}
+
+.ThreadResultsFound h2{
+    margin-left: 40px;
+    margin-top: -15px;
+    position: relative;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,235 @@
+.fl-navbar-spacing{
+    margin-top: 2%;
+    padding-top: 2%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.forums-title h2{
+    position: relative;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: -5px;
+}
+
+.thread-pages{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.1rem;
+    user-select: none;
+    
+    
+}
+.thread-pages li{
+    list-style: none;
+    display: inline-block;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.thread-pages li a{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 2rem;
+    outline: 3px;
+    outline-style: outset;
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    user-select: none;
+}
+.thread-pages li.previous a,
+.thread-pages li.next a,
+.thread-pages li.break a {
+  color: #5a18b1;
+}
+.thread-pages li.active a {
+    background-color: #9d5bf3;
+    color: rgb(0, 0, 0);
+}
+.thread-pages li.disabled a {
+    color: rgb(148, 148, 148);
+}
+.thread-pages li.disable,
+.thread-pages li.disabled a {
+cursor: default;
+}
+
+.LandingOptions{
+    display: inline;
+    float: right;
+    position: relative;
+    block-size: fit-content;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    margin-right: 40px;
+}
+.LandingOptions a{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    
+}
+
+.LandingOptions a:active{
+    background-color: orange;
+}
+
+.LandingOptions a img{
+    user-select: none;
+    position: relative;
+    margin:auto;
+    height:50px;
+    width:55px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.LandingSort {
+    cursor: pointer;
+    width : 55px;
+    height: 50px;
+    user-select: none;
+}
+
+.landingsort-optn {
+    width:175px;
+    height:0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    list-style: none;
+    padding-left:0;
+    z-index: 1;
+    position: absolute;
+    background-color: black;
+}
+.landingsort-optn :hover{
+    background-color: orange;
+}
+
+.landingsort-optn li a{
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+#lsortbtn { /* hidden checkbox*/
+    position: absolute; opacity: 0; height: 0px;
+}    
+
+#lsortbtn:checked + .landingsort-optn {
+    height: 100px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+}
+
+
+/* Thread-list */
+
+.Thread-List{
+    width: 96%;
+    margin: auto;
+    margin-top: 35px;
+    padding: 15px 15px;
+    background-color: #6870b9;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin-bottom: 120px;
+}
+.thread{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    
+}
+.topic-items{
+    text-align: left;
+    position: relative;
+}
+.thread-title{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+}
+.thread-title:hover{
+    text-decoration: underline;
+    color: rgb(255, 161, 19);
+}
+.tags{
+    display: inline-block;
+    margin: -3px 0px;
+    padding: 5px;
+}
+
+.tags li{
+    display: inline-block;
+    margin-left: 5px;
+    padding:0px 3px;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: rgb(75, 75, 75);
+}
+
+.DeleteThread{
+    display: inline;
+    float: right;
+    border:1px outset black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #6193ff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.DeleteThread img{
+    height: 30px;
+    width: 35px;
+    -webkit-user-drag: none;
+}
+
+.DeleteThread:hover{
+    background-color: #4882ff;
+}
+.DeleteThread:active{
+    transform: scale(0.97);
+}
+
+.thread-creator{
+    display: inline;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 1300px;
+    top:15px;
+}
+
+.thread-creator{
+    display: inline;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 1000px;
+    top:15px;
+}
+.Stats{
+    display: inline-block;
+    float:right;
+    margin-right: 100px
+}
+.Stats h4{
+    font-size: 20px;
+}
+.Stats img{
+    height:25px;
+    width:25px;
+}

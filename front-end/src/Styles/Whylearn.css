@@ -1,0 +1,110 @@
+.whylearn{
+	width: 100%;
+	padding: 50px 0px 0px 0px;
+}
+.why-title {
+	color: black;
+	font-size: 2rem;
+    font-weight: bold;
+	text-align: center;
+}
+.button-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 16vh;
+}
+
+.btn-1{
+	position: relative;
+	width: 250px;
+	height: 70px;
+	border: none;
+	color:  white;
+    font-weight: bold;
+	background-color:#f9004d;
+	transition: ease-in-out 0.8s;
+	font-size: 2rem;
+	outline: none;
+	border: 3px solid 42 #131616;
+    border-radius: 25px;
+}
+
+.btn-1:hover{
+	transition: 0.8s all ease-in-out;
+	box-shadow: inset 300px 0 0 0 #416bb9;
+    cursor: pointer;
+}
+.box{
+	z-index: 0;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: linear-gradient(147deg,#3f39fe 0%, #5956ad 74%);
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+	cursor: pointer;
+	transition: 0.4s;
+}
+.card:hover{
+	transform: scale(0.9, 0.9);
+	box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+	  -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.card svg {
+	position: inherit;
+	left: 110px;
+	margin-top: 60px;
+}
+
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: white;
+    line-height: 50px;
+}
+h2{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: white;
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 27px;
+}
+
+@media  (max-width: 570px) {
+
+    .why-title {
+		font-size: 1.75rem;
+		margin-bottom: 25px;
+	}
+
+	.box {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.card {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+}

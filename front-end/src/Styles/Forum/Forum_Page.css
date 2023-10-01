@@ -1,0 +1,296 @@
+.fp-navbar-spacing{
+    margin-top: 2%;
+    padding-top: 2%;
+}
+.forums-title{
+    position: relative;
+    padding: 20px 40px;
+    font-size: 25px;
+}
+
+.threadName{
+    display:inline-block;
+}
+.threadTag{
+    display:inline-block;
+    padding-left: 10px;
+    margin-left: 5px;
+    padding:0px 3px;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: #5a18b1;
+}
+
+.thread-messages{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.1rem;
+    user-select: none;
+    
+    
+}
+.thread-messages li{
+    list-style: none;
+    display: inline-block;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.thread-messages li a{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 2rem;
+    outline: 3px;
+    outline-style: outset;
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    user-select: none;
+}
+.thread-messages li.previous a,
+.thread-messages li.next a,
+.thread-messages li.break a {
+  color: #5a18b1;
+}
+.thread-messages li.active a {
+    background-color: #9d5bf3;
+    color: rgb(0, 0, 0);
+}
+.thread-messages li.disabled a {
+    color: rgb(148, 148, 148);
+}
+.thread-messages li.disable,
+.thread-messages li.disabled a {
+cursor: default;
+}
+
+.SubButton{
+    display: inline;
+    float: right;
+    position: relative;
+    block-size: fit-content;    
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin-right: 40px;
+    height:0;
+}
+
+
+#subbtn{
+    position: relative;
+    user-select: none;
+    padding: 0 20px;
+    color: black;
+    font-family:'Poppins', sans-serif;
+    font-size: 31px;
+    background-color: white;
+    border-width: 2px;
+    margin:auto;
+}
+
+#subbtn:hover{
+    background-color: orange;
+}
+
+#subbtn:active{
+    transform: scale(0.99);
+}
+
+
+.Thread-Messages{
+    width: 96%;
+    margin: auto;
+    position: relative;
+    margin-top: 25px;
+    background-color: #a6aefd;
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom:40px;
+}
+.ThreadProfile{
+    display: inline-block;
+    margin-top: 0;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    -webkit-user-drag: none;
+}
+.ThreadProfile img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.ThreadParagraph{
+    float:right;
+    position: relative;
+    width:85%;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(175, 175, 175, 0.747);
+    border: 2px solid black;
+}
+.ThreadParagraph p{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+.ThreadUser{
+    display: inline-block;
+    margin-left: 2.5%;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+.dateandreply{
+    display: inline;
+    margin-top: 10px;
+    
+}
+.ThreadTime{
+    position: absolute;
+    left:300px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.replydelete{
+    display: inline;
+    float: right;
+    padding: 10px 0px;
+}
+
+.DeleteReply{
+    display: inline;
+    border:1px outset black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: #6193ff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.DeleteReply img{
+    height: 30px;
+    width: 35px;
+    -webkit-user-drag: none;
+}
+
+.DeleteReply:hover{
+    background-color: #4882ff;
+}
+.DeleteReply:active{
+    transform: scale(0.97);
+}
+
+.ThreadReply{
+    display: inline;
+    border:1px outset black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: #6193ff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.ThreadReply img{
+    height: 30px;
+    width: 35px;
+    -webkit-user-drag: none;
+}
+.ThreadReply label{
+    padding-left: 10px;
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+}
+.ThreadReply:hover{
+    background-color: #4882ff;
+}
+.ThreadReply:active{
+    transform: scale(0.97);
+}
+
+.ThreadReplySection{
+    width: 96%;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 250px;
+    padding: 10px 0px;
+    padding-bottom: 80px;
+    background-color: #a6aefd;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.ThreadTextEditor{
+    width: 96%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.ThreadEditorText textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    resize: vertical;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: none;
+    outline-style: none;
+    background-color: white;
+}
+
+.ThreadTextEditorReply{
+    display: inline;
+    user-select: none;
+    margin-top: 20px;
+    align-items: center;
+    position:relative;
+    display:inline;
+    float:right;
+    border: 1px outset black;
+    border-radius: 15px;
+    padding: 0 10px;
+    margin-right: 40px;
+    background-color: #6193ff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.ThreadTextEditorReply:hover{
+    background-color:#4882ff;
+}
+.ThreadTextEditorReply:active{
+    box-shadow: 0 1px #646464;
+    transform:scale(0.99);
+}
+.ThreadTextEditorReply img{
+    height:35px;
+    width:30x;
+}
+.ThreadTextEditorReply label{
+    padding-left: 10px;
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;
+}

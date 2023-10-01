@@ -1,0 +1,98 @@
+.cf-navbar-spacing{
+    margin-top: 3%;
+    padding-top: 2%;
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+.CreateForum-Title{
+    position: relative;
+    padding: 0 40px;
+    color: black;
+    font-size: 2rem;
+}
+.thread-create{
+    width: 96%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px 15px;
+    padding-bottom: 80px;
+    background-color: #a6aefd;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.createthread-title{
+    margin-top: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+.createthread-title label{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-right: 5px;
+    font-size: 23px;
+}
+#cthread-title{
+    position: relative;
+    display:inline-block;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 0.5%;
+}
+
+.createtags{
+    margin-top: 15px;
+    position: relative;
+    padding-left: 109px;
+}
+.createtags label{
+    position: relative;
+    padding-right: 5px;
+    font-size: 23px;
+}
+#c_tags{
+    position: relative;
+    display:inline-block;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    width: 18%;
+    border-radius: 10px;
+    padding-left: 0.5%;
+}
+
+.ThreadTextEditorCreate{
+    display: inline;
+    user-select: none;
+    margin-top: 14px;
+    align-items: center;
+    position:relative;
+    display:inline;
+    float:right;
+    border: 1px outset black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 40px;
+    background-color: #6193ff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.ThreadTextEditorCreate:hover{
+    background-color:#4882ff;
+}
+.ThreadTextEditorCreate:active{
+    box-shadow: 0 1px #646464;
+    transform:scale(0.99);
+}
+.ThreadTextEditorCreate img{
+    height:40px;
+    width:50px;
+}
+.ThreadTextEditorCreate label{
+    padding-left: 10px;
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;
+}

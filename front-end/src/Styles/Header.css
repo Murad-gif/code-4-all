@@ -1,0 +1,76 @@
+.overflow{
+    text-align: center;
+    padding: 100px 0 110px 0;
+    background: linear-gradient(to right, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.desc{
+    position: relative;
+    top: 50px;
+    font-size: 2.5rem;
+    /* font-weight: 500; */
+    color: black;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; */
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+.text2 {
+    position: relative;
+    top: 40px;
+    font-size: 4vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .text2::before {
+    content: attr(data-text);
+    position: absolute;
+    
+    
+    color: #01fe87;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+   @keyframes animate {
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+    70%,
+    90% {
+      width: 25%;
+    }
+  }
+  
+  @media  (max-width: 570px) {
+
+    .text2 {
+      font-size: 4rem;
+    }
+
+    .desc {
+      margin-top: 2%;
+      font-size: 2rem;
+      padding: 0 10%;
+    }
+
+}
